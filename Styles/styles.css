@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Inter', 'sans-serif';
+    src: url('https://fonts.gstatic.com/s/inter/v3/4m0x8g.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {        
+    font-family: 'Merriweather', 'serif';
+    src: url('https://fonts.gstatic.com/s/merriweather/v22/6xK0c3g1f2Y4a5c8e7k4bQ.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+  
+body {
+ 
+    background-color: #003366;
+    
+}
+.flex-box-1 h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fbfbfb;
+    margin-bottom: 1rem;
+}
+
+.topNav {
+    display: flex;
+    color: #fbfbfb;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    text-align :left ;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #003366;
+}
