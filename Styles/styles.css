@@ -42,3 +42,44 @@ body {
     padding: 1rem 2rem;
     background-color: #003366;
 }
+
+.navMenu a{
+
+    background-color: #003366;
+    color: #fbfbfb;
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: left;
+    /* position: fixed; */
+    margin: px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #003366;
+    transition: all 0.3s ease;
+    font-weight: 200;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    color: #fbfbfb;
+    
+    
+}
+.navMenu a:hover {
+    background-color: #07396c;
+    color: #FFD700;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: left;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.topNav img {
+    margin: 2px 0px -12px 0px;
+}
