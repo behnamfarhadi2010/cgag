@@ -20,17 +20,71 @@ body {
     background-color: #003366;
     
 }
+/*Slider Part - Box 1*/
+.flex-box-1 {
+    height: 390px;   
+}
 .flex-box-1 h1 {
-    font-family: 'Merriweather', serif;
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-family: 'Merriweather', 'serif';
+    font-size: 3.9rem;
+    font-weight: 900;
     color: #fbfbfb;
+    margin-left: 40px;
+    margin-top: 90px;
     margin-bottom: 1rem;
 }
 
+.flex-box-1 P {
+    font-family: 'Merriweather', 'serif';
+    font-size: 1.1rem;
+    font-weight: 900;
+    color: #fbfbfb;
+    margin-left: 40px;
+    margin-bottom: 1rem;
+}
+
+.browseGallery {
+    font-family: 'Merriweather', 'serif';
+    background-color: #FFD700;
+    border-radius: 8px;
+    width: 150px;
+    height: 44px;
+    
+    font-weight: 900;
+    color: #003366;
+    margin-left: 40px;
+    margin-bottom: 1rem;
+}
+.learnMore {
+    font-family: 'Merriweather', 'serif';
+    background-color: #003366;
+    border-radius: 8px;
+    border-color: #fbfbfb;
+    width: 150px;
+    height: 44px;
+    font-weight: 900;
+    color: #fbfdff;
+    margin-left: 10px;
+}
+.btnWhite button:hover {
+    background-color: #05407a; 
+    
+  }
+.btnGold button:hover {
+    background-color: #FFC600; 
+    
+  }
+.btnMainPage {
+    display: flex;
+}
 .topNav {
     display: flex;
     color: #fbfbfb;
+    height: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    background-color: #003366;
+    padding: 0px 20px;
     font-family: 'Merriweather', serif;
     font-size: 1.2rem;
     font-weight: 500;
@@ -52,8 +106,8 @@ body {
     font-weight: 500;
     text-decoration: none;
     text-align: left;
-    /* position: fixed; */
-    margin: px;
+    
+    
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #003366;
@@ -82,4 +136,30 @@ body {
 
 .topNav img {
     margin: 2px 0px -12px 0px;
+}
+
+.wave-container {
+    position: relative;
+    background-color: #003366;
+    height: 50px;
+    margin-left: -10px;
+    margin-top: 57px;
+  }
+  
+  .wave {
+    position: absolute;
+    width: 55%;
+    height: 80px;
+    background: url("data:image/svg+xml,%3Csvg width='100%25' height='100' viewBox='0 0 1200 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0,50 C100,0 200,100 300,50 C400,0 500,100 600,50 C700,0 800,100 900,50 C1000,0 1100,100 1200,50 L1200,100 L0,100 Z' fill='%23f8f9fa'/%3E%3C/svg%3E") no-repeat bottom left;
+    background-size: cover;
+  }
+  
+  /*Slider Part - Box 1*/
+  /* Box 2  */
+  
+  .flex-box-2 {
+    background-color: #f8f9fa;
+    height: 450px;   
+    margin-left: -10px;
+   
 }
