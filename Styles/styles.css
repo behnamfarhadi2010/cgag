@@ -143,7 +143,7 @@ body {
     background-color: #003366;
     height: 50px;
     margin-left: -10px;
-    margin-top: 57px;
+    margin-top: 77px;
   }
   
   .wave {
@@ -157,9 +157,187 @@ body {
   /*Slider Part - Box 1*/
   /* Box 2  */
   
-  .flex-box-2 {
+.flex-box-2 {
     background-color: #f8f9fa;
     height: 450px;   
     margin-left: -10px;
    
+}
+
+
+.flex-box-2-1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', 'serif';
+    font-size: 2.9rem;
+    font-weight: 00;
+    color: #003366; 
+    padding-top: 88px;     
+    
+}
+
+.flex-box-2 P {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', 'serif';
+    font-size: 1.28rem;
+    font-weight: 400;
+    color: #677489;
+    margin-left: 40px;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 2.1;
+ 
+}
+.box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    height: 600px;
+}
+.box-3-1 {
+
+    width: 210px;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 7%;
+    margin-left: 55px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Merriweather', 'serif';
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #003366;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    transition: all 0.3s ease;
+    
+    /* cursor: pointer;     */
+}
+
+.box-3 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-left: 55px;
+    margin-right: 55px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 50%;
+    /* background-color: #f8f9fa; */
+    justify-items: center;
+    width: 90PX;
+    height: 90PX;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+.box-3-p {
+    margin-top: 18px;
+    font-family: 'Merriweather', 'serif';
+    font-size: 1rem;
+    font-weight: 400;   
+    color: #677489;
+    padding-top: ;
+    
+}
+
+.box-3-2 {
+
+    width: 210px;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 7%;
+    margin-left: 55px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Merriweather', 'serif';
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #003366;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    transition: all 0.3s ease;
+    
+    /* cursor: pointer;     */
+}
+
+.box-3-3 {
+
+    width: 210px;
+    height: 260px;
+    background-color: #ffffff;
+    border-radius: 7%;
+    margin-left: 55px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Merriweather', 'serif';
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #003366;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    transition: all 0.3s ease;
+    
+    /* cursor: pointer;     */
+}
+
+/*Featured artwork*/
+.flex-box-3 {
+    background-color: #f8f9fa;
+    height: 650px;   
+    margin-left: -10px;
+    margin-top: 310px;
+   
+}
+
+
+.flex-box-3-1 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', 'serif';
+    font-size: 2.9rem;
+    font-weight: 00;
+    color: #003366; 
+    padding-top: 88px;     
+    
+}
+
+.flex-box-3 P {
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather', 'serif';
+    font-size: 1.18rem;
+    font-weight: 400;
+    color: #677489;
+    margin-left: 40px;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 2.1;
+ 
 }
