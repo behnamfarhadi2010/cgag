@@ -199,6 +199,8 @@ body {
     background-color: #f8f9fa;
     height: 600px;
 }
+
+
 .box-3-1 {
 
     width: 210px;
@@ -250,7 +252,6 @@ body {
     font-size: 1rem;
     font-weight: 400;   
     color: #677489;
-    padding-top: ;
     
 }
 
@@ -340,4 +341,98 @@ body {
     text-align: center;
     line-height: 2.1;
  
+}
+
+.lhbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    height: 600px;
+}
+
+
+.flex-box-3 {
+
+
+    height: 1000px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .flex-box-1 h1 {
+        font-size: 2.2rem;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    .flex-box-1 p {
+        font-size: 1rem;
+        margin-left: 20px;
+    }
+
+    .browseGallery,
+    .learnMore {
+        width: 130px;
+        height: 40px;
+        margin-left: 20px;
+        font-size: 0.95rem;
+    }
+
+    .btnMainPage {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topNav {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .navMenu a {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .wave {
+        width: 100%;
+        height: 60px;
+        background-size: cover;
+    }
+
+    .box {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .box-3-1,
+    .box-3-2,
+    .box-3-3 {
+        margin: 20px auto;
+    }
+
+    .flex-box-2 h2,
+    .flex-box-3 h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .flex-box-2 p,
+    .flex-box-3 p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
 }
