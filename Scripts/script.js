@@ -16,15 +16,30 @@ const imageUrls = [
     img.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
     img.style.transition = "transform 0.2s";
     img.style.cursor = "pointer";
+    
     img.addEventListener("mouseover", () => {
       img.style.transform = "scale(1.05)";
     });
     img.addEventListener("mouseout", () => {
       img.style.transform = "scale(1)";
     });
-    img.addEventListener("click", () => {
-      window.open(url, "_blank");
-    });
+    if (url === "./Img/lh1.png") {
+
+        img.addEventListener("click", () => {
+            window.location.href = "http://127.0.0.1:3000/lh1.html";
+        });
+    
+    } else if (url === "./Img/lh2.png") {
+        img.addEventListener("click", () => {
+            window.location.href = "http://127.0.0.1:3000/lh2.html";
+        });
+    } else if (url === "./Img/lh3.png") {
+
+        img.addEventListener("click", () => {
+            window.location.href = "http://127.0.0.1:3000/lh3.html";
+        });
+    }
+
     img.addEventListener("error", () => {
       img.src = "./Img/error.png"; 
     });
