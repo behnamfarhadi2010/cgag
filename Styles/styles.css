@@ -367,12 +367,13 @@ body {
     margin-right: -50px;
     
 }
-.viewArtGalllery {
+.viewArtGallery {
     font-family: 'Merriweather', 'serif';
     background-color: #003366;
     border-radius: 8px;
     width: 150px;
     height: 44px;
+    justify-content: center;
     
     font-weight: 900;
     color: #ffffff;
