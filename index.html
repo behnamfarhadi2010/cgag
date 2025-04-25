@@ -4,109 +4,155 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Web Page</title>
-    <link rel="stylesheet" href="/Styles/styles.css" />
+    <link rel="stylesheet" href="./Styles/styles.css" />
   </head>
-  <body>
-    <header>
-      <div class="topNav">
-            <div class="logo">
-                <img src="./Img/logo.svg" /><span>Coast Guard Art Gallery</span></img>
-            </div>
+    <body>
+        <header>
+            <div class="topNav">
+                    <div class="logo">
+                        <img src="./Img/logo.svg"><span>Coast Guard Art Gallery</span></img>
+                    </div>
 
-            <div class="navMenu">
-                <a class="active" href="#home">Home</a>
-                <a href="./gallery.html">Gallery</a>
-                <a href="./about.html">About</a>
-                
+                    <div class="navMenu">
+                        <a class="active" href="#home">Home</a>
+                        <a href="./gallery.html">Gallery</a>
+                        <a href="./about.html">About</a>
+                        
+                    </div>
             </div>
-      </div>
 
       
-    </header>
-    <main>
-        <div class="flex flex-box-1">
-            <h1>Coast Guard Alumni <br> Art Gallery</h1>
-            <p>Exploring our maritime heritage through art</p>
-            <div class="btnMainPage">
-                <div class="btnGold">
-                    <button class="browseGallery" onclick="browseGallery()">Browse Gallery</button>
+        </header>
+        <main>
+            <div class="flex flex-box-1">
+                <h1>Coast Guard Alumni <br> Art Gallery</h1>
+                <p>Exploring our maritime heritage through art</p>
+                <div class="btnMainPage">
+                    <div class="btnGold">
+                        <button class="browseGallery" onclick="browseGallery()">Browse Gallery</button>
+                    </div>
+                    <div class="btnWhite">
+                        <button class="learnMore" > Learn More</button>
+                    </div>
                 </div>
-                <div class="btnWhite">
-                    <button class="learnMore" > Learn More</button>
-                </div>
+                    <div class="wave-container">
+                        <div class="wave"></div>
+                    </div>      
             </div>
-            <div class="wave-container">
-                <div class="wave"></div>
-            </div>      
-        </div>
-        <div class="flex flex-box-2">
-        
+                <!-- Section 2-Under Slider -->
+            <div class="flex flex-box-2">
+                <div class="flex flex-box-2-1">
+                    <h2>Welcome to Our Virtual Gallery</h2>
+                     <p>
+                        Discover the rich artistic heritage of Coast Guard Alumni through our collection
+                        <br>
+                        of 74 unique artworks. Each piece tells a story of service, courage, and maritime
+                        <br>
+                        tradition.
+                    </p>
+                </div>
+                <div class="box box-3">    
+                    <div class="box-3-1">
+                        <img src="./Img/3.svg" />
+                        <span class="box-3-text">Maritime Heritage</span>
+                        
+                        <div class="box-3-p">
+                            <span> Celebrating our rich tradition of service at sea through artistic expression.</span>
+                        </div>
+                    </div>
 
-            <div class="flex flex-box-2-1">
-                <h2>Welcome to Our Virtual Gallery</h2>
-                <p>
-                    Discover the rich artistic heritage of Coast Guard Alumni through our collection
-                    <br>
-                    of 74 unique artworks. Each piece tells a story of service, courage, and maritime
-                    <br>
-                    tradition.
-                </p>
+                    <div class="box-3-2">
+                        <img src="./Img/2.svg" />
+                        <span class="box-3-text">Unique Artworks</span>
+                        
+                        <div class="box-3-p">
+                            <span> Each with its own QR code linking to detailed information and video content.</span>
+                        </div>
+                    </div>
+
+                    <div class="box-3-3" >
+                        <img src="./Img/1.svg" />
+                        <span class="box-3-text">Interactive Experience</span>
+                        
+                        <div class="box-3-p">
+                            <span> Scan QR codes at our physical gallery to unlock rich digital content.</span>
+                        </div>
+                    </div>
+
+                </div>
+                
             </div>
-            <div class="box box-3">
+
+            <!-- Featured Artworks -->
+
+            <div class="flex flex-box-3">  
+            
+                <div class="flex flex-box-3-1">
+                    <h2>Featured Artworks</h2>
+                    <p>
+                        Explore some of the highlighted pieces from our collection.
+                    </p>
+                </div>
+                
+                <div class="lhbox box-4" id="image-container"></div>
+                
+            </div>
+
+            <div class="flex-button-viewArtGalllery">
+
+                
+                    <button class="viewArtGalllery" onclick="browseGallery()"><a href="./gallery.html" > View All Artworks </a> </button>
+                
+            
+            </div>
+
+            <!-- part 4 -Under View All Artworks -->
+        
+            <div class="flex flex-box-4">
+                
+
+                <div class="flex flex-box-4-1">
+                    <h2> How It Works </h2>
+                    <p>
+                        Our museum enhances your experience with digital content accessible via QR codes.
+                    </p>
+                </div>
+                <div class="box box-4">
+                        
+                    <div class="box-4-1">
+                        <!-- <img src="./Img/3.svg" /> -->
+                        <span class="box-4-text">1</span>
                     
-                <div class="box-3-1">
-                    <img src="./Img/3.svg" />
-                    <span class="box-3-text">Maritime Heritage</span>
-                
-                    <div class="box-3-p">
-                        <span> Celebrating our rich tradition of service at sea through artistic expression.</span>
+                        <div class="box-4-p">
+                            <span> Visit the Gallery </span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="box-3-2">
-                    <img src="./Img/2.svg" />
-                    <span class="box-3-text">Unique Artworks</span>
-                
-                    <div class="box-3-p">
-                        <span> Each with its own QR code linking to detailed information and video content.</span>
+                    <div class="box-4-2">
+                        <!-- <img src="./Img/2.svg" /> -->
+                        <span class="box-4-text">2</span>
+                    
+                        <div class="box-4-p">
+                            <span> Scan QR Codes </span>
+                        </div>
                     </div>
-                </div>
 
-                <div class="box-3-3" >
-                    <img src="./Img/1.svg" />
-                    <span class="box-3-text">Interactive Experience</span>
-                
-                    <div class="box-3-p">
-                        <span> Scan QR codes at our physical gallery to unlock rich digital content.</span>
+                    <div class="box-4-3" >
+                        <!-- <img src="./Img/1.svg" /> -->
+                        <span class="box-4-text">3</span>
+                    
+                        <div class="box-4-p">
+                            <span> Experience More </span>
+                        </div>
                     </div>
-                </div>
 
+                </div>
+            
             </div>
-          
-      </div>
 
-      <!-- Featured Artworks -->
+            <!--  part 4 -->
 
-    <div class="flex flex-box-3">  
-        <div class="flex flex-box-3-1">
-            <h2>Featured Artworks</h2>
-            <p>
-                Explore some of the highlighted pieces from our collection.
-            </p>
-        </div>
-    <div class="lhbox box-4" id="image-container"></div>
-           
-    </div>
-    <div class="flex-button-viewArtGalllery">
-
-        
-            <button class="viewArtGalllery" onclick="browseGallery()"><a href="./gallery.html" > View All Artworks </a> </button>
-        
-       
-    </div>
-
-
-</main>
+        </main>
     <div class="footer wave-container">
         <footer>
             <img class="footer-logo" src="./Img/footer.png" />
@@ -116,6 +162,6 @@
         <!-- <p>&copy; 2023 My Web Page</p> -->
         </footer>
     </div>
-    <script src="/Scripts/script.js"></script>
-  </body>
+    <script src="./Scripts/script.js"></script>
+    </body>
 </html>
