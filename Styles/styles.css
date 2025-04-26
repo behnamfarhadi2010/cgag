@@ -444,6 +444,9 @@ body {
     line-height: 2.1;
  
 }
+.box-4-p{
+    margin-left: -30px;
+}
 .box-4-1 {
 
     width: 310px;
@@ -462,7 +465,7 @@ body {
     font-size: 1.4rem;
     font-weight: 500;
     color: #003366;
-    /* margin-left: 100px; */
+    /* margin-left: 10px; */
     margin-bottom: 20px;
     margin-top: 80px;
     /* transition: all 0.3s ease; */
