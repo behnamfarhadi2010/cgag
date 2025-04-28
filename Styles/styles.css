@@ -150,7 +150,7 @@ body {
   
   .wave {
     position: absolute;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: -10px;
     width: 55%;
     height: 80px;
@@ -261,7 +261,7 @@ body {
 }
 
 .box-3-2 {
-
+    
     width: 210px;
     height: 260px;
     background-color: #ffffff;
@@ -312,6 +312,7 @@ body {
 
 /*Featured artwork*/
 .flex-box-3 {
+    width: auto;
     background-color: #f8f9fa;
     height: 1000px;   
     margin-left: -50px;
@@ -677,12 +678,15 @@ body {
     color: #fbfbfb;
 }
 
+
+.gallery-box-1{
+    width: 33.3%;
+    margin-left: -30px;
+}
+
+
 /* responsive mode */
 
-/* --- Your original CSS here (unchanged) --- */
-/* (no edits to your existing code above) */
-
-/* --- Responsive Fixes --- */
 @media (max-width: 1200px) {
     .flex-box-1 h1 {
       font-size: 3rem;
