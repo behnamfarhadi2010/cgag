@@ -16,10 +16,17 @@
 }
   
 body {
- 
     background-color: #003366;
-    
-}
+    margin: 0;
+  }
+.stickyHeader {
+    display: flex;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
 /*Slider Part - Box 1*/
 .flex-box-1 {
     height: 390px; 
@@ -204,7 +211,7 @@ body {
     justify-content: center;
     margin-top: 20px;
     background-color: #f8f9fa;
-    height: 600px;
+    height: 300px;
 }
 
 
@@ -312,16 +319,16 @@ body {
 
 /*Featured artwork*/
 .flex-box-3 {
-    width: auto;
     background-color: #f8f9fa;
-    height: 1000px;   
+    height: 1000px;
     margin-left: -50px;
     margin-right: -50px;
-    margin-top: 310px;
-    
-   
-}
-
+    margin-top: 280px;
+  }
+.boxPadding {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
 .flex-box-3-1 h2 {
     display: flex;
