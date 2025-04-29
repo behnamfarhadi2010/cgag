@@ -690,6 +690,36 @@ body {
     width: 33.3%;
     margin-left: -30px;
 }
+/*Sample Page*/
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    height: 100vh;
+    margin-left: -50px;
+    margin-right: -50px;
+    padding: 10px;
+}
+.outerbox-yellow {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    height: 100vh;
+    padding: 10px;
+    border: 6px solid #ec0000;
+}
+.outerbox-purple {
+    display: flex;
+    flex: 1;
+    border: 6px solid #da0aff;
+    padding: 10px;
+}
+
+/*Sample Page*/
+
 
 
 /* responsive mode */
