@@ -18,6 +18,8 @@
 body {
     background-color: #003366;
     margin: 0;
+    width: 100%;
+    height: 100%;
   }
 .stickyHeader {
     display: flex;
@@ -32,8 +34,10 @@ body {
 }
 /*Slider Part - Box 1*/
 .flex-box-1 {
-    height: 390px; 
-    width: 100%;  
+    height: 460px; 
+    width: 100%;
+    margin-top: 0px;
+    
 }
 .flex-box-1 h1 {
     font-family: 'Merriweather', 'serif';
@@ -148,15 +152,16 @@ body {
     margin: 2px 0px -12px 0px;
 }
 
-/* .wave-container {
+ .wave-container {
     display: flex;
     justify-content:left;
     width: 100%;
     margin-left: -50px;
     margin-right: -50px;
-    margin-top: 5%;
+    margin-top: -80px;
+
   
-  } */
+  } 
   
   .wave {
     position: absolute;
@@ -175,7 +180,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #f8f9fa;
-     width: 100%;
+    width: 100%;
     height: 1000px;
     /* margin-left: -50px;
     margin-right: -50px;
@@ -231,7 +236,7 @@ body {
     height: 260px;
     background-color: #ffffff;
     border-radius: 7%;
-    margin-left: 55px;
+    
     justify-content: center;
     align-items: center;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -242,7 +247,7 @@ body {
     font-size: 1.4rem;
     font-weight: 500;
     color: #003366;
-    margin-left: 100px;
+    
     margin-bottom: 20px;
     margin-top: 80px;
     transition: all 0.3s ease;
@@ -330,14 +335,13 @@ body {
 /*Featured artwork*/
 .flex-box-3 {
     background-color: #f8f9fa;
+    width: 100%;
     height: 1000px;
-    margin-left: -50px;
-    margin-right: -50px;
-    margin-top: 280px;
+    margin-top: -170px;
   }
 .boxPadding {
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
   }
 
 .flex-box-3-1 h2 {
@@ -360,7 +364,7 @@ body {
     font-size: 1.18rem;
     font-weight: 400;
     color: #677489;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-bottom: 1rem;
     text-align: center;
     line-height: 2.1;
@@ -384,8 +388,8 @@ body {
     margin-top: -120px;
     background-color: #f8f9fa;
     height: 200px;
-    margin-left: -50px;
-    margin-right: -50px;
+    /* margin-left: -50px;
+    margin-right: -50px; */
     
 }
 .viewArtGallery {
@@ -395,10 +399,10 @@ body {
     width: 150px;
     height: 44px;
     justify-content: center;
-    
+    margin-top: 83px;
     font-weight: 900;
     color: #ffffff;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-bottom: 1rem;
 }
 /*All artworks button*/
@@ -432,8 +436,8 @@ body {
 .flex-box-4 {
     background-color: #f8f9fa;
     height: auto;   
-    margin-left: -50px;
-    margin-right: -50px;
+    /* margin-left: -50px;
+    margin-right: -50px; */
     margin-top: -50px;
     align-items: center;
    
@@ -458,7 +462,7 @@ body {
     font-size: 1.29rem;
     font-weight: 500;
     color: #677489;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-bottom: 1rem;
     text-align: center;
     line-height: 2.1;
@@ -830,4 +834,3 @@ footer {
       width: 100%;
     }
   }
-  
