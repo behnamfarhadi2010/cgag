@@ -776,13 +776,15 @@ footer {
     border-radius: 8px;
     overflow: hidden;
   }
-  .tab-button {
+
+  
+  .media-btn button{
     display: flex;
     align-items: center;
     gap: 6px;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    color: #334155;
+    color: #003366;
     padding: 10px 16px;
     background: transparent;
     border: none;
@@ -793,9 +795,9 @@ footer {
     font-size: 18px;
   }
   
-  .tab-button.active {
+  .media-btn .active {
     background-color: #fff;
-    border: 2px solid #0f172a;
+    border: 2px solid #003366;
     border-radius: 8px;
     font-weight: 600;
   }
