@@ -22,11 +22,11 @@
       </div>
     </header>
     <div class="breadcrumb-box">
-        <button class="btn-breadcrumb">
-          <a href="./gallery.html">Back to Gallery</a>
+        <button class="btn-breadcrumb-left">
+          <a href="./gallery.html"><img src="./Img/arrowback.svg"></span> Back to Gallery</a>
         </button>
-        <button class="btn-breadcrumb">
-          <a href="./gallery.html">Home</a>
+        <button class="btn-breadcrumb-right">
+          <a href="./index.html"><img src="./Img/home.svg"></span>Home</a>
         </button>
     </div>
     <div class="page outerbox-yellow">
@@ -47,7 +47,9 @@
               <button class="active" id="imagesBtn" onclick="setActive('images')">
                 <span class="icon"><img src="./Img/images.svg" ></span>
                 Images
+                <div  id="image-container2"></div>
               </button>
+              
               <button class="tab-button" id="videosBtn" onclick="setActive('videos')">
                 <span class="icon"><img src="./Img/videos.svg"></span>
                 Videos
@@ -90,7 +92,22 @@
               </div>
             </div>
           </div>
-          <div class="page innnerbox-blue-right yotubeVideo"></div>
+          <div class="page innnerbox-blue-right yotubeVideo">
+            <h2>Experience More</h2>
+            <p>
+              Thank you for using our interactive gallery experience. 
+              Continue exploring our collection to discover more amazing 
+              artworks and stories from Coast Guard Alumni.
+            </p>
+            <div class="video-container">
+              <iframe width="100%" height="565"
+              src="https://www.youtube-nocookie.com/embed/qrfXpxRZ6iU?autoplay=1&start=32&controls=0&mute=1"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>

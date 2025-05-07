@@ -52,10 +52,12 @@ const imageUrls = [
   
   function setActive(type) {
     const imagesBtn = document.getElementById('imagesBtn');
+    
     const videosBtn = document.getElementById('videosBtn');
   
     if (type === 'images') {
       imagesBtn.classList.add('active');
+
       videosBtn.classList.remove('active');
     } else {
       videosBtn.classList.add('active');
