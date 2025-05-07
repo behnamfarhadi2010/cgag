@@ -98,7 +98,7 @@ body {
 .topNav {
     display: flex;
     color: #fbfbfb;
-    height: 20px;
+    height: 40px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
     background-color: #003366;
@@ -112,6 +112,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    border-radius: 10px;
 }
 
 .navMenu a{
@@ -485,8 +486,7 @@ body {
     /* margin-left: 55px; */
     justify-content: center;
     align-items: center;
-    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -2px rgba(0, 0, 0, 0.1); */
+   
     padding: 20px;
     text-align: center;
     font-family: 'Merriweather', 'serif';
@@ -582,7 +582,7 @@ footer {
 .footer-box1{
     /* width: 35%; */
     margin-left: 40px;
-    margin-top: 260px;
+    margin-top: 170px;
     margin-bottom: 20px;
     margin-right: 20px;
     padding: 20px;
@@ -614,7 +614,7 @@ footer {
 .footer-box2{
     /* width: 30px; */
     margin-left: 40px;
-    margin-top: 260px;
+    margin-top: 170px;
     margin-bottom: 20px;
     margin-right: 20px;
     padding: 20px;
@@ -658,7 +658,7 @@ footer {
     align-items: left;
     /* width: 30%; */
     margin-left: 70px;
-    margin-top: 260px;
+    margin-top: 170px;
     margin-bottom: 20px;
     margin-right: 20px;
     gap: 20px;
@@ -726,6 +726,8 @@ footer {
     
 }
 .Artwork-left {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -2px rgba(0, 0, 0, 0.1);
     order: -1;
     width:100%;
     height: 50%;
@@ -736,6 +738,8 @@ footer {
     width:50%;
     height: 50%;
     border-radius: 22px; 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
 .innnerbox-blue-right, .innnerbox-blue-left {
     flex:1;
@@ -744,6 +748,7 @@ footer {
     /* color: #ffffff; */
 }
 .innnerbox-blue-left {
+  
     padding-left: 20px;
 }
 .innnerbox-blue-right {
@@ -760,6 +765,8 @@ footer {
     background-color: #ffffff;
     padding-left: 20px;
     align-items: center;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
   .aboutArt, .yotubeVideo{
     width:100%;
@@ -770,6 +777,8 @@ footer {
     padding-left: 20px;
     align-items: center;
     margin-top: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
 
   }
   .yotubeVideo {
@@ -812,11 +821,12 @@ footer {
     height: 70px;
     background-color: #f8f9fa;
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
-    padding-left: 20px;
+    mar
+    /* padding-left: 20px; */
     font-size: 16px;
     font-weight: bold;
+    border-color: #003366;
     /* border-bottom: 1px solid #ccc; */
   }
 .btn-breadcrumb-left {
@@ -912,9 +922,23 @@ footer {
     .aboutArt h2 {
     color: #003366;
     }
-    .aboutArt p {
+.aboutArt p {
       color: #909090;
-      }
+}
+
+.footer-line {
+ 
+  display: flex;
+  align-content: flex-end;
+  margin-top: 65px;
+}
+.copyright {
+  display: flex;
+  color: white;
+  margin-top: 23px;
+  justify-content: center;
+  margin-bottom: 23px;
+}
 /*Sample Page*/
 
 
