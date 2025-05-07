@@ -26,7 +26,7 @@ const imageUrls = [
     if (url === "./Img/lh1.png") {
 
         img.addEventListener("click", () => {
-            window.location.href = "http://127.0.0.1:3000/lh1.html";
+            window.location.href = "http://127.0.0.1:3000/samplepage.html";
         });
     
     } else if (url === "./Img/lh2.png") {
@@ -50,17 +50,17 @@ const imageUrls = [
     
   });
   
-  function setActive(type) {
-    const imagesBtn = document.getElementById('imagesBtn');
+  // function setActive(type) {
+  //   const imagesBtn = document.getElementById('imagesBtn');
     
-    const videosBtn = document.getElementById('videosBtn');
+  //   const videosBtn = document.getElementById('videosBtn');
   
-    if (type === 'images') {
-      imagesBtn.classList.add('active');
+  //   if (type === 'images') {
+  //     imagesBtn.classList.add('active');
 
-      videosBtn.classList.remove('active');
-    } else {
-      videosBtn.classList.add('active');
-      imagesBtn.classList.remove('active');
-    }
-  }
+  //     videosBtn.classList.remove('active');
+  //   } else {
+  //     videosBtn.classList.add('active');
+  //     imagesBtn.classList.remove('active');
+  //   }
+  // }
