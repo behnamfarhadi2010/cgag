@@ -98,7 +98,7 @@ body {
 .topNav {
     display: flex;
     color: #fbfbfb;
-    height: 40px;
+    height: 80px;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
     background-color: #003366;
@@ -770,7 +770,7 @@ footer {
   }
   .aboutArt, .yotubeVideo{
     width:100%;
-    height: 330px;
+    height: 380px;
     border-radius:22px;
     color: #003366;
     background-color: #ffffff;
@@ -795,16 +795,23 @@ footer {
 }
 .artLine h4 {
   color: #909090;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #909090;
+  font-weight: 400;
+  line-height: 1.5;
 }
-.artLine  {
+.artLine  span{
   color: #000000;
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
 }
-.left {
+.left, .right {
   flex: 1;
 }
-.right {
-  flex: 1;
-}
+
 
   .additionalMedia {
     margin-top: 15px;
@@ -830,14 +837,14 @@ footer {
     /* border-bottom: 1px solid #ccc; */
   }
 .btn-breadcrumb-left {
-  background-color: #fbfbfb;
+  
   border: 1px solid #003366;
   border-radius: 8px;
-  padding: 20px 26px;
+  height: 43px;
   color: #003366;
   display: flex;
   /* flex: 1; */
-   
+   margin-left:3.7ch;
   text-decoration: none;
   gap: 6px; 
   /* justify-content: flex-start; */
@@ -847,37 +854,30 @@ footer {
    
   display: flex;
   margin-left: auto; 
-  margin-right: 33px;
+  margin-right: 3.7ch;
+  gap: 6px;
   justify-content: flex-end;
   align-items: center;
   
 }
 
-  .breadcrumb-box button{
-    
-    gap: 6px;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    padding: 10px 16px;
-    
-    border: 1 solid #003366;
-    background: transparent;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.2s ease; 
-  }
+
   .breadcrumb-box a{
     text-decoration: none;
     color: #003366;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     padding: 3px 3px;
-  
     border: 1 solid #003366;
     background: transparent;
     border-radius: 8px;
     cursor: pointer;
-    transition: all 0.2s ease; 
+    transition: all 0.2s ease;
+    
+    
+  }
+  .breadcrumb-box  #btg {
+    background-color: #FFD700;
   }
   .media-btn button{
     display: flex;
@@ -924,6 +924,10 @@ footer {
     }
 .aboutArt p {
       color: #909090;
+      font-family: 'Inter', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.5;
 }
 
 .footer-line {
