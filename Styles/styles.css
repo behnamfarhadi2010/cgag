@@ -114,14 +114,16 @@ body {
     padding: 1rem 2rem;
     border-radius: 10px;
 }
-
+.logo a{
+  text-decoration: none;
+  color: #fbfbfb;
+}
 .navMenu a{
 
     background-color: #003366;
     color: #fbfbfb;
     font-family: 'Merriweather', serif;
     font-size: 14px;
-    text-decoration: none;
     text-align: left;
     padding: 10px;
     border-radius: 5px;
