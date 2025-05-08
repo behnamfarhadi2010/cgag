@@ -70,6 +70,14 @@ body {
     margin-left: 40px;
     margin-bottom: 1rem;
 }
+.browseGallery a {
+    text-decoration: none; 
+    color: #003366;
+  }
+  .btnWhite a{
+    text-decoration: none; 
+    color: #ffffff;
+  }
 .learnMore {
     font-family: 'Merriweather', 'serif';
     background-color: #003366;
@@ -945,6 +953,8 @@ footer {
   justify-content: center;
   margin-bottom: 23px;
 }
+
+
 /*Sample Page*/
 
 
