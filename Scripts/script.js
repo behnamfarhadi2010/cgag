@@ -26,17 +26,17 @@ const imageUrls = [
     if (url === "./Img/lh1.png") {
 
         img.addEventListener("click", () => {
-            window.location.href = "http://127.0.0.1:3000/samplepage.html";
+            window.location.href = "./samplepage.html";
         });
     
     } else if (url === "./Img/lh2.png") {
         img.addEventListener("click", () => {
-            window.location.href = "http://127.0.0.1:3000/lh2.html";
+            window.location.href = "./lh2.html";
         });
     } else if (url === "./Img/lh3.png") {
 
         img.addEventListener("click", () => {
-            window.location.href = "http://127.0.0.1:3000/lh3.html";
+            window.location.href = "./lh3.html";
         });
     }
 
