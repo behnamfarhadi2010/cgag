@@ -204,6 +204,11 @@ body {
     flex-direction: column;
    
 }
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .flex-box-2-1 h2 {
     display: flex;
