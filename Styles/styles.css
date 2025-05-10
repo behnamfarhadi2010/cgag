@@ -199,6 +199,12 @@ body {
     margin-right: -10px; */ 
    
 }
+.flex-box-gallery {
+  display: flex;
+  justify-content: center;
+  height: 1200px;
+}
+
 .flex-box-2-1 {
     display: flex;
     flex-direction: column;
