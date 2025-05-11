@@ -14,21 +14,42 @@ const images = [
   {
     url: "./Img/lh3.png",
     title: "Art Piece Three",
-    description: "Youthful energy and vibrant colors tell a bold story.",
+    description: "Youthful eneell a bold story.",
     link: "./lh3.html"
   }
-
+  ,
+  {
+    url: "./Img/lh4.jpg",
+    title: "Art Piece Three",
+    description: "Youthful l a bold story.",
+    link: "./lh3.html"
+  },
+  {
+    url: "./Img/lh5.jpg",
+    title: "Art Piece Three",
+    description: "Youthful ll a bold story.",
+    link: "./lh3.html"
+  }
 ];
 
 const containers = document.getElementById("image-container");
 
+containers.style.display = "grid";
+containers.style.gridTemplateColumns = "repeat(3, 1fr)";
+
+
+
 images.forEach(({ url, title, description, link }) => {
   // wrapp div
   const wrapper = document.createElement("div");
-  wrapper.style.display = "inline-block";
+  wrapper.style.display = "grid";
+  wrapper.style.alignItems = "center";
+
   wrapper.style.margin = "20px";
   wrapper.style.textAlign = "center";
-  wrapper.style.width = "500px";
+  wrapper.style.width = "100%";
+  wrapper.style.maxWidth = "400px";
+  
   wrapper.style.borderRadius = "10px";
   wrapper.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
   wrapper.style.transition = "transform 0.2s";
@@ -43,14 +64,14 @@ images.forEach(({ url, title, description, link }) => {
   img.style.transition = "transform 0.2s";
   img.style.cursor = "pointer";
 
-  // Hover effect
-//   img.addEventListener("mouseover", () => {
-//     img.style.transform = "scale(1.05)";
-//   });
+//   Ho]ver effect
+  img.addEventListener("mouseover", () => {
+    img.style.transform = "scale(1.01)";
+  });
   
-//   img.addEventListener("mouseout", () => {
-//     img.style.transform = "scale(1)";
-//   });
+  img.addEventListener("mouseout", () => {
+    img.style.transform = "scale(1)";
+  });
 
   // Click action
   img.addEventListener("click", () => {
