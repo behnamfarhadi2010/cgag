@@ -1,19 +1,19 @@
 const images = [
   {
     url: "./Img/lh1.png",
-    title: "Lighthouse at Dawn",
+    title: "Cape Spear",
     description: "Captain Robert Stevens, 1975",
     link: "./samplepage.html"
   },
   {
     url: "./Img/lh2.png",
-    title: "Art Piece Two",
+    title: "Bell Island",
     description: "A modernwfoundland’s rugged landscape.",
     link: "./lh2.html"
   },
   {
     url: "./Img/lh3.png",
-    title: "Art Piece Three",
+    title: "Number three",
     description: "Youthful eneell a bold story.",
     link: "./lh3.html"
   }
@@ -26,86 +26,73 @@ const images = [
   },
   {
     url: "./Img/lh5.jpg",
-    title: "Art Piece Three",
+    title: "Bonavista",
     description: "Youthful ll a bold story.",
     link: "./lh3.html"
   }
 ];
 
-const containers = document.getElementById("image-container");
+const container = document.getElementById("image-container");
 
-containers.style.display = "grid";
-containers.style.gridTemplateColumns = "repeat(3, 1fr)";
+function renderImages(imageArray) {
+  container.innerHTML = "";
+  container.style.display = "grid";
+  container.style.gridTemplateColumns = "repeat(3, 1fr)";
 
+  imageArray.forEach(({ url, title, description, link }) => {
+    const wrapper = document.createElement("div");
+    wrapper.style.display = "grid";
+    wrapper.style.alignItems = "center";
+    wrapper.style.margin = "20px";
+    wrapper.style.textAlign = "center";
+    wrapper.style.width = "100%";
+    wrapper.style.maxWidth = "400px";
+    wrapper.style.borderRadius = "10px";
+    wrapper.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+    wrapper.style.transition = "transform 0.2s";
+    wrapper.style.cursor = "pointer";
 
+    const img = document.createElement("img");
+    img.src = url;
+    img.style.width = "100%";
+    img.style.height = "600px";
+    img.style.borderRadius = "10px";
+    img.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
+    img.style.transition = "transform 0.2s";
+    img.style.cursor = "pointer";
 
-images.forEach(({ url, title, description, link }) => {
-  // wrapp div
-  const wrapper = document.createElement("div");
-  wrapper.style.display = "grid";
-  wrapper.style.alignItems = "center";
+    img.addEventListener("mouseover", () => img.style.transform = "scale(1.01)");
+    img.addEventListener("mouseout", () => img.style.transform = "scale(1)");
+    img.addEventListener("click", () => window.location.href = link);
+    img.addEventListener("error", () => img.src = "./Img/error.png");
+    img.addEventListener("load", () => console.log(`Image loaded: ${url}`));
 
-  wrapper.style.margin = "20px";
-  wrapper.style.textAlign = "center";
-  wrapper.style.width = "100%";
-  wrapper.style.maxWidth = "400px";
-  
-  wrapper.style.borderRadius = "10px";
-  wrapper.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
-  wrapper.style.transition = "transform 0.2s";
-  wrapper.style.cursor = "pointer";
-  // image element
-  const img = document.createElement("img");
-  img.src = url;
-  img.style.width = "100%";
-  img.style.height = "600px";
-  img.style.borderRadius = "10px";
-  img.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.2)";
-  img.style.transition = "transform 0.2s";
-  img.style.cursor = "pointer";
+    const titleEl = document.createElement("h3");
+    titleEl.textContent = title;
+    titleEl.style.margin = "10px 0 0 5px";
+    titleEl.style.color = "#003366";
+    titleEl.style.fontFamily = 'Merriweather', 'serif';
 
-//   Ho]ver effect
-  img.addEventListener("mouseover", () => {
-    img.style.transform = "scale(1.01)";
+    const descEl = document.createElement("h5");
+    descEl.textContent = description;
+    descEl.style.fontSize = "14px";
+    descEl.style.color = "#677489";
+    descEl.style.fontFamily = 'Merriweather', 'serif';
+
+    wrapper.appendChild(img);
+    wrapper.appendChild(titleEl);
+    wrapper.appendChild(descEl);
+    container.appendChild(wrapper);
   });
-  
-  img.addEventListener("mouseout", () => {
-    img.style.transform = "scale(1)";
-  });
+}
 
-  // Click action
-  img.addEventListener("click", () => {
-    window.location.href = link;
-  });
+renderImages(images);
 
-  // Error fallback
-  img.addEventListener("error", () => {
-    img.src = "./Img/error.png";
-  });
-
-  // Load log
-  img.addEventListener("load", () => {
-    console.log(`Image loaded: ${url}`);
-  });
-
-  // Title
-  const titleEl = document.createElement("h3");
-  titleEl.textContent = title;
-  titleEl.style.margin = "10px 0 0 5px";
-  titleEl.style.color = "#003366";
-  titleEl.style.fontFamily = 'Merriweather', 'serif';
-
-  // Description
-  const descEl = document.createElement("h5");
-  descEl.textContent = description;
-  descEl.style.fontSize = "14px";
-  descEl.style.color = "#677489";
-  descEl.style.fontFamily = 'Merriweather', 'serif';
-
-  // Append everything
-  wrapper.appendChild(img);
-  wrapper.appendChild(titleEl);
-  wrapper.appendChild(descEl);
-  containers.appendChild(wrapper);
+const searchBox = document.getElementById("search-box");
+searchBox.addEventListener("input", (e) => {
+  const query = e.target.value.toLowerCase();
+  const filtered = images.filter(image =>
+    image.title.toLowerCase().includes(query)
+  );
+  renderImages(filtered);
 });
-
