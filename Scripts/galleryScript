@@ -26,7 +26,7 @@ const images = [
   },
   {
     url: "./Img/lh5.jpg",
-    title: "Bonavista",
+    title: "Art Piece Three",
     description: "Youthful ll a bold story.",
     link: "./lh3.html"
   }
