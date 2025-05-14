@@ -202,10 +202,12 @@ body {
 }
 .flex-box-gallery {
   display: flex;
+  position: relative;
   width: 100%;
   justify-content: center;
+  align-items: center;
   height: 2400px;
-  margin-top: -400px;
+  margin-top: -300px;
 }
 
 .flex-box-2-1 {
@@ -227,7 +229,7 @@ body {
     font-size: 2.9rem;
     font-weight: 00;
     color: #003366; 
-    padding-top: 88px;     
+    padding-top: 122px;     
     
 }
 
@@ -861,6 +863,7 @@ footer {
     /* border-bottom: 1px solid #ccc; */
   }
   /* gallery page search box */
+
   #search-box {
     margin: 20px auto; 
     display: flex;
