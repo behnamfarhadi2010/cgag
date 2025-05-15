@@ -773,6 +773,13 @@ footer {
     background-color: #f8f9fa;
     /* color: #ffffff; */
 }
+.aboMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
 .innnerbox-blue-left {
   
     padding-left: 20px;
@@ -806,6 +813,58 @@ footer {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
 
+  }
+
+  .boxAbout {
+    width:50%;
+    height: 300px;
+    text-align: justify;
+    border-radius:22px;
+    color: #003366;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 1.8;
+    font-family: 'Merriweather', 'serif';
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  }
+  .boxAbout1 {
+    width:50%;
+    line-height: 1.8;
+    height: 360px;
+    text-align: justify;
+    border-radius:22px;
+    color: #003366;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Merriweather', 'serif';
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  }
+  .boxAbout2 {
+    width:50%;
+    line-height: 1.8;
+    height: 490px;
+    text-align: justify;
+    border-radius:22px;
+    color: #003366;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Merriweather', 'serif';
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
   }
   .yotubeVideo {
     height: 750px;
