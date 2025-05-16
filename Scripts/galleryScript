@@ -1,21 +1,21 @@
 const images = [
   {
-    url: "./Img/lh1.png",
+    url: "./Img/Cape-Spear.png",
     title: "Cape Spear",
-    description: "Captain Robert Stevens, 1975",
-    link: "./samplepage.html"
+    description: "Landmark 1836 lighthouse & fortress site ",
+    link: "./Cape-Spear.html"
   },
   {
-    url: "./Img/lh2.png",
-    title: "Bell Island",
-    description: "A modernwfoundland’s rugged landscape.",
-    link: "./lh2.html"
+    url: "./Img/Bacalhao-Island.png",
+    title: "Bacalhao Island",
+    description: "December 6, 1894",
+    link: "./Bacalhao-Island.html"
   },
   {
-    url: "./Img/lh3.png",
-    title: "Number three",
-    description: "Youthful eneell a bold story.",
-    link: "./lh3.html"
+    url: "./Img/Bell-Iseland.png",
+    title: "Bell Iseland Lighthouse",
+    description: "vandalized in early August, 2010",
+    link: "./Bell-Iseland.html"
   }
   ,
   {

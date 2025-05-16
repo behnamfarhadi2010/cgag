@@ -204,10 +204,10 @@ body {
   display: flex;
   position: relative;
   width: 100%;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   height: 2400px;
-  margin-top: -300px;
+  /* margin-top: -300px; */
 }
 
 .flex-box-2-1 {
@@ -852,7 +852,7 @@ footer {
   .boxAbout2 {
     width:50%;
     line-height: 1.8;
-    height: 490px;
+    height: 520px;
     text-align: justify;
     border-radius:22px;
     color: #003366;

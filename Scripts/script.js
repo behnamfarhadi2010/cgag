@@ -1,7 +1,7 @@
 const imageUrls = [
-    "./Img/lh1.png",
-    "./Img/lh2.png",
-    "./Img/lh3.png"
+    "./Img/Cape-Spear.png",
+    "./Img/Bacalhao-Island.png",
+    "./Img/Bell-Iseland.png"
   ];
   
   const container = document.getElementById("image-container");
@@ -23,20 +23,20 @@ const imageUrls = [
     img.addEventListener("mouseout", () => {
       img.style.transform = "scale(1)";
     });
-    if (url === "./Img/lh1.png") {
+    if (url === "./Img/Cape-Spear.png") {
 
         img.addEventListener("click", () => {
-            window.location.href = "./samplepage.html";
+            window.location.href = "./Cape-Spear.html";
         });
     
-    } else if (url === "./Img/lh2.png") {
+    } else if (url === "./Img/Bacalhao-Island.png") {
         img.addEventListener("click", () => {
-            window.location.href = "./lh2.html";
+            window.location.href = "./Bacalhao-Island.html";
         });
-    } else if (url === "./Img/lh3.png") {
+    } else if (url === "./Img/Bell-Iseland.png") {
 
         img.addEventListener("click", () => {
-            window.location.href = "./lh3.html";
+            window.location.href = "./Bell-Iseland.html";
         });
     }
 
