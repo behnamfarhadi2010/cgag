@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="./Styles/styles.css" />
+
+    <meta property="og:title" content="Coast Guard Art Gallery" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Coast Guard Art Gallery" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_CA" />
+    <mata
+      name="description"
+      content="Explore the Coast Guard Alumni Art Gallery, showcasing 74 unique artworks that celebrate the rich artistic heritage and maritime history of the Coast Guard."
+    />
+    <meta
+      name="keywords"
+      content="Coast Guard, Art Gallery, Alumni, Maritime History, Artwork"
+    />
+  </head>
+
+  <body>
+    <header class="stickyHeader">
+      <div class="topNav stickyHeader">
+        <div class="logo">
+          <img src="./Img/logo.svg" alt="Logo" />
+          <span
+            ><a class="active" href="./index.html"
+              >Coast Guard Art Gallery</a
+            ></span
+          >
+        </div>
+        <nav class="navMenu">
+          <a class="active" href="./index.html">Home</a>
+          <a href="./gallery.html">Gallery</a>
+          <a href="./about.html">About</a>
+        </nav>
+      </div>
+    </header>
+    <div class="breadcrumb-box">
+      <a id="btg" class="btn-breadcrumb-left" href="./gallery.html">
+        <img src="./Img/arrowback.svg" alt="Back Icon" />
+        <span>Back to Gallery</span>
+      </a>
+      <a class="btn-breadcrumb-right" href="./index.html">
+        <img src="./Img/home.svg" alt="Home Icon" />
+        <span>Home</span>
+      </a>
+    </div>
+    <div class="page outerbox-yellow">
+      <div class="page outerbox-purple">
+        <div class="page innnerbox-blue-left">
+          <div class="page innnerbox-blue-left artPicture">
+            <img
+              src="./Img/Colombier-iseland.png"
+              alt="Artwork"
+              class="Artwork-left"
+            />
+            <div class="page innnerbox-blue-left artistName"></div>
+          </div>
+          <div class="page innnerbox-blue-left googleMap">
+            <h2>
+              <span class="icon"><img src="./Img/location.svg" /></span>
+              Bacalhao Island Lighthouse
+            </h2>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d297164.72019012016!2d-59.25925267747189!3d47.615623004716525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b65a12563c76a59%3A0x489f4f31a7d67864!2sColombier%20Islands%20Lighthouse!5e0!3m2!1sen!2sca!4v1747568722720!5m2!1sen!2sca"
+              width="100%"
+              height="350px"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="page innnerbox-blue-left additionalMedia">
+            <h2>Additional Media</h2>
+            <div class="media-btn">
+              <button
+                class="active"
+                id="imagesBtn"
+                onclick="setActive('images')"
+              >
+                <span class="icon"><img src="./Img/images.svg" /></span>
+                Images
+                <div id="image-container2"></div>
+              </button>
+
+              <button
+                class="tab-button"
+                id="videosBtn"
+                onclick="setActive('videos')"
+              >
+                <span class="icon"><img src="./Img/videos.svg" /></span>
+                Videos
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page innnerbox-blue-right">
+        <div class="page innnerbox-blue-right artName" id="artNameContainer">
+          <h1>Colombier Island Lighthouse</h1>
+          <h3>December 6, 1839</h3>
+        </div>
+        <div class="page innnerbox-blue-right aboutArt">
+          <h2>About the Artwork</h2>
+          <p>
+            A stunning portrayal of the Cape May Lighthouse at dawn, with the
+            first rays of sunlight breaking through storm clouds. Captain
+            Stevens painted this piece after serving 20 years in the Coast
+            Guard, capturing the beauty and symbolism of lighthouses as beacons
+            of hope and safety.
+          </p>
+          <svg
+            class="svgLine"
+            height="5"
+            width="100%"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              x1="0"
+              y1="10"
+              x2="750"
+              y2="10"
+              style="stroke: gray; stroke-width: 12"
+            />
+          </svg>
+          <div class="artLine">
+            <div class="left">
+              <h4>Medium</h4>
+              <span> Oil on canvas </span>
+            </div>
+            <div class="right">
+              <h4>Year</h4>
+              <span> 1987 </span>
+            </div>
+          </div>
+        </div>
+        <div class="page innnerbox-blue-right yotubeVideo">
+          <h2>Experience More</h2>
+          <p>
+            Thank you for using our interactive gallery experience. Continue
+            exploring our collection to discover more amazing artworks and
+            stories from Coast Guard Alumni.
+          </p>
+          <div class="video-container">
+            <iframe
+              width="100%"
+              height="565"
+              src="https://www.youtube-nocookie.com/embed/qrfXpxRZ6iU?autoplay=1&start=32&controls=0&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer wave111-container">
+      <div class="footerbox footer-box">
+        <div class="footer-box1">
+          <ul>
+            <span>Coast Guard Art Gallery</span>
+            <p>
+              Preserving and celebrating the rich artistic heritage and maritime
+              history of the Coast Guard Alumni.
+            </p>
+          </ul>
+        </div>
+
+        <div class="footer-box2">
+          <h2>Navigation</h2>
+          <ul>
+            <a href="./gallery.html">Gallery</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+          </ul>
+        </div>
+
+        <div class="footer-box3">
+          <ul>
+            <span>Contact</span>
+            <p>Coast Guard Alumni Museum</p>
+            <p>123 Maritime Avenue</p>
+            <p>Coastal City, CS 1234</p>
+          </ul>
+        </div>
+      </div>
+
+      <!-- <img class="footer-logo" src="./Img/footer.png" alt="Footer Logo" /> -->
+    </footer>
+    <div class="footer-line">
+      <svg
+        class="svgLine"
+        height="5"
+        width="100%"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line
+          x1="200"
+          y1="10"
+          x2="1550"
+          y2="10"
+          style="stroke: gray; stroke-width: 12"
+        />
+      </svg>
+    </div>
+    <div class="copyright">
+      <span>© 2025 Coast Guard Alumni Art Gallery. All rights reserved.</span>
+    </div>
+    <script src="./Scripts/script.js"></script>
+  </body>
+</html>

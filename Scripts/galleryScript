@@ -25,10 +25,10 @@ const images = [
     link: "./bonavista-lighthouse.html"
   },
   {
-    url: "./Img/lh5.jpg",
-    title: "Art Piece Three",
-    description: "Youthful ll a bold story.",
-    link: "./lh3.html"
+    url: "./Img/Colombier-iseland.png",
+    title: "Colombier iseland",
+    description: "A square, skeletal, metal tower serves as Colombier Islands Light.",
+    link: "./Colombier-iseland.html"
   }
 ];
 
