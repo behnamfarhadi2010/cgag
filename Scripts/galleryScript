@@ -19,10 +19,10 @@ const images = [
   }
   ,
   {
-    url: "./Img/lh4.jpg",
-    title: "Art Piece Three",
-    description: "Youthful l a bold story.",
-    link: "./lh3.html"
+    url: "./Img/cape-bonavista.png",
+    title: "Bonavista Lighthouse",
+    description: "Cape Bonavista Lighthouse",
+    link: "./bonavista-lighthouse.html"
   },
   {
     url: "./Img/lh5.jpg",
