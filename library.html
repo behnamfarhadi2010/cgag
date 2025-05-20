@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Web Page</title>
-        <link rel="stylesheet" href="./Styles/styles.css" />
-        <link rel="stylesheet" href="./Styles/library.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Page</title>
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <link rel="stylesheet" href="./Styles/library.css" />
 
-        <meta property="og:title" content="Coast Guard Art Gallery" />
-        <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Coast Guard Art Gallery" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:locale:alternate" content="fr_CA" />
-        <mata
-        name="description"
-        content="Explore the Coast Guard Alumni Art Gallery, showcasing 74 unique artworks that celebrate the rich artistic heritage and maritime history of the Coast Guard."
-        />
-        <meta
-        name="keywords"
-        content="Coast Guard, Art Gallery, Alumni, Maritime History, Artwork"
-        />
-    </head>
+    <meta property="og:title" content="Coast Guard Art Gallery" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Coast Guard Art Gallery" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="fr_CA" />
+    <meta
+      name="description"
+      content="Explore the Coast Guard Alumni Art Gallery, showcasing 74 unique artworks that celebrate the rich artistic heritage and maritime history of the Coast Guard."
+    />
+    <meta
+      name="keywords"
+      content="Coast Guard, Art Gallery, Alumni, Maritime History, Artwork"
+    />
+  </head>
 
   <body>
     <header class="stickyHeader">
       <div class="topNav stickyHeader">
         <div class="logo">
           <img src="./Img/logo.svg" alt="Logo" />
-          <span
-            ><a class="active" href="./index.html"
-              >Coast Guard Art Gallery</a
-            ></span
-          >
+          <span>
+            <a class="active" href="./index.html">Coast Guard Art Gallery</a>
+          </span>
         </div>
         <nav class="navMenu">
           <a class="active" href="./index.html">Home</a>
@@ -40,59 +38,87 @@
         </nav>
       </div>
     </header>
+
     <main>
-       
-        
-        
-            <body>
-            
-            <div class="row" style="text-align:center">
-              <h2>Tabbed Image Gallery</h2>
-              <p>Click on the images below:</p>
-            </div>
-            
-            <!-- The four columns -->
-            <div class="row">
-              <div class="column">
-                <img src="./Img/Bacalhao-Island.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./Img/Bell-Iseland.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./Img/Cape-Spear.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./Img/cape-bonavista.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./Img/Bacalhao-Island.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./Img/Bell-Iseland.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./Img/Cape-Spear.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-              <div class="column">
-                <img src="./Img/cape-bonavista.png" alt="photo by craig Soper" style="width:100%" onclick="myFunction(this);">
-              </div>
-            </div>
-            
-            <div class="container">
-              <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-              <img id="expandedImg" style="width:100%">
-              <div id="imgtext"></div>
-            </div>
-            
-           
-            
-  
+      <div class="row" style="text-align: center">
+        <h2>Media Gallery</h2>
+        <p>Click on the images below:</p>
+      </div>
+
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column">
+          <img
+            src="./Img/Bacalhao-Island.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="./Img/Bell-Iseland.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="./Img/Cape-Spear.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="./Img/cape-bonavista.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="./Img/Bacalhao-Island.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="./Img/Bell-Iseland.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="./Img/Cape-Spear.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+        <div class="column">
+          <img
+            src="./Img/cape-bonavista.png"
+            alt="photo by craig Soper"
+            style="width: 100%"
+            onclick="openPopup(this)"
+          />
+        </div>
+      </div>
+
+      <div id="imgPopup" class="container">
+        <span class="closebtn" onclick="closePopup()">&times;</span>
+        <img id="expandedImg" />
+        <div id="imgtext"></div>
+      </div>
     </main>
-
-
-
-
 
     <footer class="footer wave111-container">
       <div class="footerbox footer-box">
@@ -127,6 +153,7 @@
 
       <!-- <img class="footer-logo" src="./Img/footer.png" alt="Footer Logo" /> -->
     </footer>
+
     <div class="footer-line">
       <svg
         class="svgLine"
@@ -143,9 +170,11 @@
         />
       </svg>
     </div>
+
     <div class="copyright">
       <span>© 2025 Coast Guard Alumni Art Gallery. All rights reserved.</span>
     </div>
+
     <script src="./Scripts/library.js"></script>
     <script src="./Scripts/script.js"></script>
   </body>
