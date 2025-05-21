@@ -1,3 +1,23 @@
+window.addEventListener("DOMContentLoaded", () => {
+  const isMobile = window.matchMedia("(max-width: 480px)").matches;
+
+  if (!isMobile) return; // Don't autoplay or show
+
+  const modal = document.getElementById("videoModal");
+  const closeBtn = document.getElementById("closeVideoModal");
+  const iframe = modal.querySelector("iframe");
+  const originalSrc = iframe.src;
+
+  modal.style.display = "flex";
+  iframe.src = originalSrc;
+
+  closeBtn.addEventListener("click", () => {
+    modal.style.display = "none";
+    iframe.src = "";
+  });
+});
+
+
 const imageUrls = [
     "./Img/Cape-Spear.png",
     "./Img/Bacalhao-Island.png",
