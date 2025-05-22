@@ -804,17 +804,18 @@ footer {
   .footer {
     position: relative;
     margin-top: 6rem;
+    height: 1rem;
 }
 }
 
 .footer-box {
   display: flex;
-  flex-direction: column;
 }
 @media (max-width: 480px) {
   .footer-box {
     position: relative;
     margin-top: 6rem;
+    flex-direction: column;
 }
 }
 .footer-box1 {
@@ -829,9 +830,8 @@ footer {
 
 @media (max-width: 480px) {
   .footer-box1 {
-    margin-left: 3.5rem;
     margin-top: 33rem;
-}
+  }
 }
 
 .footer-box1 span {
@@ -847,10 +847,8 @@ footer {
 }
 @media (max-width: 480px) {
   .footer-box1 span {
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin-top: auto;
-    margin-left: -2.2rem;
-    width: 66vw;
 }
 }
 
@@ -865,10 +863,9 @@ footer {
 }
 @media (max-width: 480px) {
   .footer-box1 p {
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-top: auto;
-    width: 66vw;
-    margin-left: -2.2rem;
+    width: 32vw;
 }
 }
 .footer-box2 {
@@ -880,6 +877,12 @@ footer {
   padding: 20px;
   /* height: 200px; */
 }
+@media (max-width: 480px) {
+  .footer-box2 {
+    margin-top: auto;
+  }
+}
+
 .footer-box2 h2 {
   display: flex;
   justify-content: left;
@@ -924,7 +927,11 @@ footer {
   padding: 20px;
   /* height: 200px; */
 }
-
+@media (max-width: 480px) {
+  .footer-box3 {
+      margin-top: auto;
+  }
+}
 .footer-box3 span {
   display: flex;
   justify-content: left;
