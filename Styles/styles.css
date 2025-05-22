@@ -814,7 +814,7 @@ footer {
 @media (max-width: 480px) {
   .footer-box {
     position: relative;
-    margin-top: 6rem;
+    margin-top: -9.5rem;
     flex-direction: column;
 }
 }
@@ -863,9 +863,11 @@ footer {
 }
 @media (max-width: 480px) {
   .footer-box1 p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     margin-top: auto;
-    width: 32vw;
+    width: 60vw;
+    text-align: center;
+    margin-left: -1.5rem;
 }
 }
 .footer-box2 {
@@ -893,6 +895,13 @@ footer {
   color: #ffd700;
   width: 50%;
 }
+@media (max-width: 480px) {
+  .footer-box2 h2 {
+    font-size: 1rem;
+    margin-top: auto;
+    margin-left: 6rem;
+}
+}
 .footer-box2 a {
   text-decoration: none;
   display: flex;
@@ -903,6 +912,14 @@ footer {
   font-weight: 500;
   color: #fbfbfb;
 }
+@media (max-width: 480px) {
+  .footer-box2 a {
+    font-size: 0.8rem;
+    margin-top: initial;
+    margin-left: 4.5rem;
+}
+}
+
 .footer-box2 a:link {
   color: #ffffff;
   background-color: transparent;
@@ -942,6 +959,15 @@ footer {
   color: #ffd700;
   width: 50%;
 }
+
+@media (max-width: 480px) {
+  .footer-box3 span {
+    margin-top: -3rem;
+    font-size: 1.2rem;
+    margin-left: 1.8rem;
+  }
+}
+
 .footer-box3 p {
   display: flex;
   justify-content: left;
@@ -951,7 +977,15 @@ footer {
   font-weight: 500;
   color: #fbfbfb;
 }
-
+@media (max-width: 480px) {
+  .footer-box3 p {
+    margin-top: auto;
+    font-size: 0.9rem;
+    margin-left: -2rem;
+    margin-bottom: 3.5rem;
+    text-align: center;
+  }
+}
 .footer-text-p {
   justify-content: left;
   color: #fbfbfb;
@@ -1263,6 +1297,16 @@ footer {
   align-content: flex-end;
   margin-top: 65px;
 }
+
+@media (max-width: 480px) {
+  .footer-line {
+    margin-top: 22rem;
+    font-size: 1.2rem;
+    margin-left: -22rem;
+    margin-bottom: 7rem;
+  }
+}
+
 .copyright {
   display: flex;
   color: white;
@@ -1270,7 +1314,14 @@ footer {
   justify-content: center;
   margin-bottom: 23px;
 }
-
+@media (max-width: 480px) {
+  .copyright {
+    margin-top: -5rem;
+    font-size: 1rem;
+    margin-left: 0rem;
+    margin-bottom: 7rem;
+  }
+}
 
 .video-modal {
   position: fixed;
