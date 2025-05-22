@@ -270,7 +270,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+@media (max-width: 480px) {
+  #image-container img{
+    margin-top: 24%;
+    margin-left: 30px;
+    height: 40px;
+  }
+}
 .flex-box-2-1 h2 {
   display: flex;
   justify-content: center;
@@ -303,9 +309,13 @@ body {
     padding-top: 50px;
   }
 
+}
+@media (max-width: 480px) {
   .flex-box-2-1 p {
-    font-size: 1rem;
-    margin-left: 20px;
+      font-size: 1rem;
+      margin-left: 1rem;
+      text-align: center;
+      width: 83vw;
   }
 }
 
@@ -328,7 +338,6 @@ body {
   height: 260px;
   background-color: #ffffff;
   border-radius: 7%;
-
   justify-content: center;
   align-items: center;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -344,7 +353,12 @@ body {
   margin-top: 80px;
   transition: all 0.3s ease;
 
-  /* cursor: pointer;     */
+}
+@media (max-width: 480px) {
+  .box-3-1 {
+      margin-top: 34rem;
+      margin-left: 4.7rem;
+  }
 }
 
 .box-3 img {
@@ -397,6 +411,13 @@ body {
   /* cursor: pointer;     */
 }
 
+@media (max-width: 480px) {
+  .box-3-2 {
+      margin-top: 0rem;
+      margin-left: 4.7rem;
+  }
+}
+
 .box-3-3 {
   width: 210px;
   height: 260px;
@@ -421,6 +442,14 @@ body {
   /* cursor: pointer;     */
 }
 
+@media (max-width: 480px) {
+  .box-3-3 {
+      margin-top: 0rem;
+      margin-left: 4.7rem;
+  }
+}
+
+
 /*Featured artwork*/
 .flex-box-3 {
   background-color: #f8f9fa;
@@ -429,6 +458,7 @@ body {
   margin-top: -170px;
   display: flex;
 }
+
 .flex-box-3-1 div {
   display: flex;
   height: 220px;
@@ -446,7 +476,12 @@ body {
   color: #003366;
   padding-top: 88px;
 }
-
+@media (max-width: 480px) {
+  .flex-box-3-1 h2 {
+      font-size: 1.25rem;
+      margin-top: 17.7rem;
+  }
+}
 .flex-box-3 P {
   font-family: "Merriweather", serif;
   display: flex;
@@ -461,7 +496,12 @@ body {
   text-align: center;
   line-height: 2.1;
 }
-
+@media (max-width: 480px) {
+  .flex-box-3-1 p {
+      font-size: 0.9rem;
+      width: 90vw;
+  }
+}
 .lhbox {
   display: flex;
   justify-content: center;
