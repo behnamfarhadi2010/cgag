@@ -1132,6 +1132,16 @@ footer {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 480px) {
+  .boxAbout {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    text-align: justify;
+  }
+}
+
+
 .boxAbout1 {
   width: 50%;
   line-height: 1.8;
@@ -1149,6 +1159,15 @@ footer {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 480px) {
+  .boxAbout1 {
+    margin-top: 1rem;
+    font-size: 0.67rem;
+    text-align: justify;
+  }
+}
+
 .boxAbout2 {
   width: 50%;
   line-height: 1.8;
@@ -1166,6 +1185,16 @@ footer {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 480px) {
+  .boxAbout2 {
+    margin-top: 1rem;
+    font-size: 0.77rem;
+    text-align: justify;
+  }
+}
+
+
 .yotubeVideo {
   height: 750px;
   z-index: 9999;
@@ -1351,7 +1380,7 @@ footer {
   .copyright {
     margin-top: -5rem;
     font-size: 1rem;
-    margin-left: 0rem;
+    margin-left: -1.3rem;
     margin-bottom: 7rem;
   }
 }
