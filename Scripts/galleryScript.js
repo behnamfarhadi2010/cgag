@@ -2,7 +2,7 @@ const images = [
   {
     url: "./Img/Cape-Spear.png",
     title: "Cape Spear",
-    description: "Landmark 1836 lighthouse & fortress site ",
+    description: "Landmark 1836 ",
     link: "./Cape-Spear.html"
   },
   {
@@ -32,12 +32,18 @@ const images = [
   }
 ];
 
-const container = document.getElementById("image-container");
+const container = document.getElementById("image-containerGallery");
 
 function renderImages(imageArray) {
   container.innerHTML = "";
   container.style.display = "grid";
-  container.style.gridTemplateColumns = "repeat(3, 1fr)";
+
+  if (window.innerWidth <= 480) {
+    container.style.gridTemplateColumns = "repeat(2, 1fr)";
+  } else {
+    container.style.gridTemplateColumns = "repeat(3, 1fr)";
+  }
+
 
   imageArray.forEach(({ url, title, description, link }) => {
     const wrapper = document.createElement("div");
