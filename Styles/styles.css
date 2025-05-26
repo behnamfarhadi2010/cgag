@@ -1042,6 +1042,14 @@ footer {
   /* border: 6px solid #FFD700;
     border: 6px solid #ec0000; */
 }
+
+@media (max-width: 480px) {
+  .outerbox-yellow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .outerbox-purple {
   display: flex;
   /* flex: 1; */
@@ -1050,6 +1058,13 @@ footer {
   height: 100%;
   width: 50%;
   background-color: #ffffff;
+}
+@media (max-width: 480px) {
+  .outerbox-purple {
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
 }
 .Artwork-left {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -1101,6 +1116,27 @@ footer {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -2px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 480px) {
+  .googleMap {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+@media (max-width: 480px) {
+  .googleMap img{
+    font-size: 0.6rem;
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .googleMap iframe {
+    font-size: 0.6rem;
+    text-align: left;
+  }
+}
+
 .aboutArt,
 .yotubeVideo {
   width: 100%;
@@ -1207,6 +1243,14 @@ footer {
 .artLine {
   display: flex;
 }
+
+@media (max-width: 480px) {
+  .artLine {
+    text-align: justify;
+    margin-top: -1rem;
+  }
+}
+
 .artLine h4 {
   color: #909090;
   font-family: "Inter", sans-serif;
@@ -1222,6 +1266,13 @@ footer {
   font-weight: 400;
   line-height: 1.5;
 }
+
+@media (max-width: 480px) {
+  .artLine span{
+    font-size: 16px;
+  }
+}
+
 .left,
 .right {
   flex: 1;
@@ -1336,6 +1387,15 @@ footer {
   font-weight: bold;
   margin-bottom: 8px;
 }
+
+@media (max-width: 480px) {
+  .artName h1 {
+    font-size: 1.6rem;
+    text-align: left;
+    margin-top: -2rem;
+  }
+}
+
 .artName h3 {
   font-family: "Merriweather", serif;
   font-size: 20px;
@@ -1353,6 +1413,15 @@ footer {
   font-weight: 400;
   line-height: 1.5;
 }
+
+@media (max-width: 480px) {
+  .aboutArt p {
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 1.2rem;
+  }
+}
+
 
 .footer-line {
   display: flex;
@@ -1429,4 +1498,15 @@ footer {
   color: white;
   cursor: pointer;
   z-index: 10000;
+}
+
+
+
+@media (max-width: 480px) {
+.outerbox-purple,
+  .Artwork-left,
+  .Artwork-right
+ {
+    width: 100%;
+  }
 }
