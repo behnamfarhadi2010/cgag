@@ -368,7 +368,7 @@ body {
 @media (max-width: 480px) {
   .flex-box-2-1 p {
       font-size: 0.8rem;
-      margin-left: 1.7rem;
+      margin-left: 3.7rem;
       text-align: center;
       width: 83vw;
   }
@@ -932,7 +932,7 @@ footer {
   .footer-box2 h2 {
     font-size: 1rem;
     margin-top: auto;
-    margin-left: 6rem;
+    margin-left: 5.5rem;
 }
 }
 .footer-box2 a {
@@ -1235,6 +1235,13 @@ footer {
   height: 750px;
   z-index: 9999;
 }
+@media (max-width: 480px) {
+  .yotubeVideo p{
+    font-size: 16px;
+    text-align: justify;
+  }
+}
+
 .video-container {
   border-radius: 15px;
   overflow: hidden;
