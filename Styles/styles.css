@@ -1378,7 +1378,7 @@ footer {
 }
 @media (max-width: 480px) {
   .copyright {
-    margin-top: -5rem;
+    margin-top: -2rem;
     font-size: 1rem;
     margin-left: -1.3rem;
     margin-bottom: 7rem;
