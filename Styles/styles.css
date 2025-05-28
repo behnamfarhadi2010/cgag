@@ -289,7 +289,7 @@ body {
 @media (max-width: 480px) {
   .flex-box-2-1 div{
     align-items: center;;
-    margin-left: 1rem;
+    margin-left: 2.1rem;
   }
 }
 
@@ -317,8 +317,8 @@ body {
   }
 
     #image-container img {
-        max-height: 250px;
-        max-width: 180px;
+        max-height: 260px;
+        max-width: 300px;
     }
 
 }
@@ -410,9 +410,10 @@ body {
 }
 @media (max-width: 480px) {
   .box-3-1 {
-      margin-top: 26rem;
-      margin-left: 4.7rem;
-      font-size: 1rem;
+    margin-top: 26rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+    width: 70%;
   }
 }
 
@@ -433,6 +434,13 @@ body {
   justify-items: center;
   margin-bottom: 10px;
   margin-top: -10px;
+}
+
+@media (max-width: 480px) {
+  .box-3-1 img {
+    margin-left: 6rem;
+  
+  }
 }
 .box-3-p {
   margin-top: 18px;
@@ -466,7 +474,12 @@ body {
   /* cursor: pointer;     */
 }
 
-
+@media (max-width: 480px) {
+  .box-3-2 img {
+    margin-left: 6rem;
+  
+  }
+}
 
 .box-3-3 {
   width: 210px;
@@ -493,19 +506,26 @@ body {
 }
 @media (max-width: 480px) {
   .box-3-2 {
-    margin-left: 4.7rem;
+    margin-left: 2rem;
     font-size: 1rem;
+    width: 70%;
     margin-top: 0rem;
   }
 }
 
 @media (max-width: 480px) {
   .box-3-3 {
-      margin-top: 0rem;
-      margin-left: 4.7rem;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    width: 70%;
   }
 }
-
+@media (max-width: 480px) {
+  .box-3-3 img {
+    margin-left: 6rem;
+  
+  }
+}
 @media (max-width: 480px) {
   .box-3-p {
       font-size: 0.9rem;
@@ -705,6 +725,11 @@ body {
       font-size: 0.9rem;
   }
 }
+@media (max-width: 480px) {
+  .box-4-p  {
+      margin-top: 0.6rem;
+  }
+}
 .box-4-1 {
   width: 310px;
   height: 260px;
@@ -822,6 +847,8 @@ body {
   align-items: center;
   margin-left: 36%;
 }
+
+
 /*Part-4*/
 footer {
   display: flex;
@@ -1172,6 +1199,7 @@ footer {
     margin-top: 1rem;
     font-size: 0.7rem;
     text-align: justify;
+    width: 60%;
   }
 }
 
@@ -1199,6 +1227,7 @@ footer {
     margin-top: 1rem;
     font-size: 0.67rem;
     text-align: justify;
+    width: 60%;
   }
 }
 
@@ -1225,6 +1254,7 @@ footer {
     margin-top: 1rem;
     font-size: 0.77rem;
     text-align: justify;
+    width: 60%;
   }
 }
 
@@ -1532,11 +1562,10 @@ footer {
 }
 @media (max-width: 480px) {
   .flex-box-2-1 p {
-      font-size: 0.8rem;
-      margin-left: 1rem;
-      text-align: center;
-      width: 83vw;
-      margin-left: 3.9rem;
+    font-size: 0.8rem;
+    text-align: center;
+    width: 90vw;
+    margin-left: 3.2rem;
   }
 }
 
