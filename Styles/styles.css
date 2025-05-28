@@ -1526,6 +1526,7 @@ footer {
   .flex-box-2-1 h2 {
     font-size: 1.25rem;
     padding-top: 50px;
+    margin-left: 2rem;
   }
 
 }
@@ -1535,6 +1536,7 @@ footer {
       margin-left: 1rem;
       text-align: center;
       width: 83vw;
+      margin-left: 3.9rem;
   }
 }
 
