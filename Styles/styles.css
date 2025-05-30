@@ -1140,7 +1140,23 @@ footer {
   }
 }
 
-
+@media (max-width: 480px) {
+  .flex-box-2 p {
+    font-family: "Merriweather", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Merriweather", "serif";
+    font-size: 1rem;
+    font-weight: 400;
+    color: #677489;
+    margin-left: 40px;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 2.1;
+    max-width: fit-content;
+  }
+  }
 
 @media (max-width: 480px) {
   .flex-box-1 {
@@ -1459,14 +1475,7 @@ footer {
     margin-top: 0;
   }
 }
-@media (max-width: 375px) {
-  .flex-box-4 {
-    height: 60rem;
-    margin-top: 0;
-    width: 102vw;
-    padding-bottom: 2rem;
-  }
-}
+
 @media (max-width: 480px) {
   .flex-box-4-1 h2 {
     font-size: 1.25rem;
@@ -1479,13 +1488,8 @@ footer {
     margin-top: 0.1rem;
   }
 }
-@media (max-width: 375px) {
-  .flex-box-4-1 p {
-    font-size: 0.8rem;
-    margin-top: 0.1rem;
-    max-width: 300px;
-  }
-}
+
+
 
 @media (max-width: 480px) {
   .box-4-p p {
@@ -1832,20 +1836,19 @@ width: 102vw;
 
 }
 }
-@media (max-width: 480px) {
-  .flex-box-2 p {
-    font-family: "Merriweather", serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Merriweather", "serif";
-    font-size: 1rem;
-    font-weight: 400;
-    color: #677489;
-    margin-left: 40px;
-    margin-bottom: 1rem;
-    text-align: center;
-    line-height: 2.1;
-    max-width: fit-content;
+
+@media (max-width: 375px) {
+  .flex-box-4 {
+    height: 60rem;
+    margin-top: 0;
+    width: 102vw;
+    padding-bottom: 2rem;
   }
+}
+@media (max-width: 375px) {
+  .flex-box-4-1 p {
+    font-size: 0.8rem;
+    margin-top: 0.1rem;
+    max-width: 300px;
   }
+}
