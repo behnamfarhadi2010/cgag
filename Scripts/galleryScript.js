@@ -27,7 +27,7 @@ const images = [
   {
     url: "./Img/Colombier-iseland.png",
     title: "Colombier iseland",
-    description: "A square, skeletal, metal tower serves as Colombier Islands Light.",
+    description: "A square, skeletal, metal tower",
     link: "./Colombier-iseland.html"
   }
 ];
@@ -81,7 +81,7 @@ function renderImages(imageArray) {
 
     const descEl = document.createElement("h5");
     descEl.textContent = description;
-    descEl.style.fontSize = "14px";
+    // descEl.style.fontSize = "12px";
     descEl.style.color = "#677489";
     descEl.style.fontFamily = 'Merriweather', 'serif';
 
