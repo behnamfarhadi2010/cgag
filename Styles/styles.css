@@ -1939,3 +1939,149 @@ width: 102vw;
     margin-top: 1rem;
   }
 }
+
+@media (max-width: 768px) {
+  .box-4-1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .box-4-2 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    flex-direction: row;
+  }
+}
+@media (max-width: 768px) {
+  .box-4-3 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-4-text {
+    
+    margin-left: 2.7rem;
+   
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box {
+    /* position: relative;
+    margin-top: -9.5rem; */
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box1{
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box1 span {
+    font-size: 1.2rem;
+    margin-top: auto;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer-box1 p {
+    font-size: 1rem;
+    margin-top: auto;
+    width: 30vw;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box2{
+    margin-top: 0.3rem;
+    margin-left: 3rem;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box2 h2 {
+    font-size: 1.2rem;
+    margin-top: auto;
+    justify-content: center;
+    margin-bottom: 1em;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer-box2 p {
+    font-size: 1rem;
+    margin-top: auto;
+    width: fit-content;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box3{
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-box3 span {
+    font-size: 1.2rem;
+    margin-top: -1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .footer-box3 p {
+    font-size: 1rem;
+    margin-top: auto;
+    width: fit-content;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-line {
+    margin-top: 2rem;
+    margin-left: -15rem;
+  }
+}
+@media (max-width: 768px) {
+.flex-box-3-1 #image-container {
+  display: flex
+  ;
+          flex-direction: ROW;
+          align-items: center;
+          justify-content: center;
+          margin-top: 1rem;
+}
+}
+
+@media (max-width: 768px) {
+  .flex-box-3 {
+    width: 100%;
+    height: 500px;
+  }
+}
