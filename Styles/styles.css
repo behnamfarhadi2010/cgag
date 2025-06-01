@@ -2125,3 +2125,18 @@ font-size: 12px;
   width: 100%;
 }
 }
+
+@media (min-width: 768px) {
+  .boxAbout, .boxAbout2 , .boxAbout1{
+ 
+    width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .boxAbout2 {
+    height: 580px;
+
+  }
+}
+
