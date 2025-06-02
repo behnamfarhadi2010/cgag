@@ -2350,3 +2350,46 @@ font-size: 12px;
       text-align: center;
   }
 }
+@media (min-width: 993px) {
+
+#search-box {
+  width: 80%;
+  max-width: 1000px;
+
+}
+}
+
+@media (min-width: 993px) {
+  #image-containerGallery {
+      margin-left: -0.5rem;
+      width: 75vw;
+      /* gap: 1rem; */
+  }
+}
+
+@media (min-width: 993px) {
+  #image-containerGallery img {
+      max-height: 450px;
+      max-width: 600px;
+  }
+}
+
+@media (min-width: 993px) {
+  .flex-box-gallery {
+      height: 1600px;
+  }
+}
+
+@media (min-width: 993px) {
+  .footer-line {
+    margin-top: 2rem;
+    margin-left: 4rem;
+    width: 100%;
+  }
+}
+
+@media (min-width: 993px) {
+  .boxAbout, .boxAbout2, .boxAbout1 {
+      width: 50%;
+  }
+}
