@@ -2248,7 +2248,7 @@ font-size: 12px;
 /* max 360px */
 
 /*min 993px for desktop */
-@media (min-width: 993px) {
+@media (min-width: 993px)  {
   .wave {
       margin-top: 5%;
       margin-left: 45px;
@@ -2393,3 +2393,88 @@ font-size: 12px;
       width: 50%;
   }
 }
+
+@media (min-width: 993px) {
+  .outerbox-purple {
+      flex-direction: row;
+      height: 80%;
+      width: 100%;
+      align-items: center;
+      text-align: center;
+      /* margin-left: 4rem; */
+  }
+}
+
+@media (min-width: 993px) {
+  .outerbox-yellow {
+      flex-direction: column;
+      width: 100%;
+      margin-left: ;
+  }
+}
+
+@media (min-width: 993px) {
+  .artPicture img {
+      width: 50%;
+  }
+}
+
+@media (min-width: 993px) {
+  .googleMap, .artName, .aboutArt, .yotubeVideo{
+    margin-left: 25%;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+
+  .wave {
+    margin-top: 9%;
+    margin-left: 45px;
+    width: 67%;
+    height: 78px;
+}
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .box-3 img {
+      margin-left: 4.8rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  #image-container img {
+      max-height: 500px;
+      max-width: 300px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .box-4-text {
+      margin-left: 5rem
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .footer-box {
+    display: flex;
+    width: 140vw;
+    margin-left: 0.1rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .boxAbout, .boxAbout2, .boxAbout1 {
+      width: 70%;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  #image-containerGallery {
+      margin-left: -0.5rem;
+      width: 85vw;
+      gap: 2rem;
+  }
+}
+
