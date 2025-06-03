@@ -2478,3 +2478,18 @@ font-size: 12px;
   }
 }
 
+@media (min-width: 1280px) and (max-width: 1600px) {
+
+    .wave {
+      margin-top: 7%;
+      margin-left: 45px;
+      width: 67%;
+      height: 78px;
+  }
+  }
+  
+  @media (min-width: 1280px) and (max-width: 1600px) {
+    .box-3 img {
+        margin-left: 7.8rem;
+    }
+}
