@@ -2493,3 +2493,8 @@ font-size: 12px;
         margin-left: 7.8rem;
     }
 }
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .body {
+ overflow-x: hidden;
+  }}
+  
