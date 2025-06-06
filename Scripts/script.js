@@ -10,7 +10,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
   modal.style.display = "flex";
   iframe.src = originalSrc;
-
   closeBtn.addEventListener("click", () => {
     modal.style.display = "none";
     iframe.src = "";

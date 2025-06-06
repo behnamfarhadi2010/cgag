@@ -6,7 +6,6 @@
     
   }
   
-  
   .column {
     float: left;
     width: 18%;
@@ -26,11 +25,13 @@
   .row {
     background-color: #fcfeff;
     text-align: center;
-    font-family: 'Merriweather', 'serif';
+    font-family: "Merriweather", "serif";
     font-size: 2.3rem;
     font-weight: 00;
     color: #003366;
     padding: 20px;
+    position: relative;
+    z-index: 500;
     
   }
 

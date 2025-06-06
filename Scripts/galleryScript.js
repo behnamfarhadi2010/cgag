@@ -81,7 +81,6 @@ function renderImages(imageArray) {
 
     const descEl = document.createElement("h5");
     descEl.textContent = description;
-    // descEl.style.fontSize = "12px";
     descEl.style.color = "#677489";
     descEl.style.fontFamily = 'Merriweather', 'serif';
 
