@@ -1,4 +1,33 @@
 # Newfoundland Coast Guard Art Gallery
+## The Challenge:
+Visitors at the Coast Guard Alumni NL Museum often wanted to dive deeper into the stories behind the art prints and historical displays—but traditional plaques and labels could only share so much.
+
+### The Solution:
+We designed an interactive website that bridges the physical and digital museum experience:
+
+1. QR Code Integration: Every art print now has a scannable QR code.
+
+2. Instant Access to Rich Content: Visitors can:
+
+      Watch engaging videos about the artwork’s history and significance.
+      
+      Browse additional historical photos and documents related to the piece.
+      
+      Listen to firsthand accounts or expert commentary.
+
+<img 
+  src="https://github.com/user-attachments/assets/680794c1-734e-45c0-bb0d-335e1e04eed8" 
+  alt="Screenshot of Museum Website" 
+  width="450" 
+  height="750"
+/>
+<img 
+  src="https://github.com/user-attachments/assets/fa732605-99e2-46f5-b133-21209baa31ee" 
+  alt="Screenshot of Museum Website" 
+  width="450" 
+  height="550"
+/>
+
 
 ## The Story Behind the Project
 
@@ -59,6 +88,16 @@ cd cgag
 2.  Launch
     > \*" Open index.html in a browser or deploy via GitHub Pages"
 
+<<<<<<< HEAD
 # See Online
 
+=======
+# Live Demo
+>>>>>>> 1c0b190b9063778b7f12de5496ad3cb41a8a6066
 https://behnamfarhadi2010.github.io/cgag/index.html
+
+# Credits
+
+My coach, Evan Watton, has been an indispensable pillar of support throughout this entire development journey. His unwavering guidance helped navigate complex challenges, while his technical expertise illuminated solutions I couldn’t see alone. Beyond knowledge, he fostered a mindset of resilience—celebrating breakthroughs with me during coding sessions, and offering encouragement when obstacles seemed insurmountable.
+I am profoundly grateful.
+This project carries his fingerprints as much as mine.
