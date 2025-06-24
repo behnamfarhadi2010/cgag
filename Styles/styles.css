@@ -2005,7 +2005,7 @@ width: 102vw;
     margin-top: -1rem;
     justify-content: right;
     /* align-items: center; */
-    margin-right: 1rem;
+    margin-left: 7rem;
   }
 }
 
@@ -2014,9 +2014,8 @@ width: 102vw;
   .footer-box3 p {
     font-size: 1rem;
     margin-top: auto;
-    width: 19vw;
+    width: fit-content;
     text-align: right;
-    padding-right: 16px;
   }
 }
 
