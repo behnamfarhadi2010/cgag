@@ -243,6 +243,7 @@ body {
   font-size: 2.9rem;
   font-weight: 00;
   color: #003366;
+  margin-top: 13rem;
 }
 
 .flex-box-2 p {
@@ -962,8 +963,8 @@ footer {
   text-decoration: none;
   color: #003366;
   font-family: "Inter", sans-serif;
-  font-size: 16px;
-  padding: 3px 3px;
+  font-size: 12px;
+  padding: 0px 5px 1px 0px ;
   border: 1 solid #003366;
   background: transparent;
   border-radius: 8px;
