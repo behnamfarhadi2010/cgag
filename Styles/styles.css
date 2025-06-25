@@ -154,7 +154,7 @@ body {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #003366;
-  transition: all 0.3s ease;
+  transition: font-size 0.3s ease;
   font-weight: 200;
   text-decoration: none;
   text-align: left;
@@ -162,17 +162,7 @@ body {
   color: #fbfbfb;
 }
 .navMenu a:hover {
-  background-color: #07396c;
-  color: #ffd700;
-  font-family: "Merriweather", serif;
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  text-align: left;
-  position: relative;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
+  font-size: 15px;
 }
 
 .topNav img {
@@ -234,6 +224,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f8f9fa;
+  z-index: 9999;
 }
 
 
@@ -431,9 +423,7 @@ body {
   position: relative;
 }
 
-#image-container {
-  background-color: #f8f9fa;
-}
+
 .viewArtGallery {
   font-family: "Merriweather", "serif";
   background-color: #003366;
@@ -604,6 +594,7 @@ footer {
   width: 100%;
   max-width: 1400px;
   justify-content: space-between;
+  margin-top: 6rem;
 }
 
 .footer-box1 {
@@ -660,7 +651,7 @@ footer {
   justify-content: center;
   /* align-items: left; */
   font-family: "Merriweather", "serif";
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #fbfbfb;
   text-align: left;
@@ -1048,7 +1039,7 @@ footer {
 .copyright {
   display: flex;
   color: white;
-  margin-top: 23px;
+  margin-top: 7rem;
   justify-content: center;
   margin-bottom: 23px;
 }
@@ -1516,7 +1507,7 @@ footer {
     margin-top: auto;
     justify-content: center;
     margin-bottom: 1em;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
   }
 }
 
@@ -1688,6 +1679,7 @@ footer {
     font-size: 1rem;
     margin-bottom: 7rem;
     text-align: center;
+    margin-top: 36rem;
   }
 }
 
@@ -1762,6 +1754,7 @@ footer {
     font-size: 1rem;
     margin-bottom: 7rem;
     text-align: center;
+    margin-top: 36rem;
   }
 }
 @media (max-width: 375px) {
@@ -2012,10 +2005,13 @@ width: 102vw;
 
 @media (min-width: 768px) {
   .footer-box3 p {
+    font-family: "Merriweather", "serif";
     font-size: 1rem;
-    margin-top: auto;
-    width: fit-content;
+    font-weight: 500;
+    color: #fbfbfb;
     text-align: right;
+    margin-top: auto;
+    margin-left: 0.4rem;
   }
 }
 
@@ -2241,7 +2237,7 @@ font-size: 12px;
 
 @media (min-width: 993px) {
   .viewArtGallery {
-    margin-top: 36rem;
+    margin-top: 38rem;
   }
 
 }
@@ -2400,10 +2396,18 @@ font-size: 12px;
     width: 140vw;
     margin-left: 0.1rem;
     margin-bottom: 3rem;
-    margin-top: 1rem;
+    margin-top: 6rem;
   }
 }
-
+@media (min-width: 1400px)  {
+  .footer-box {
+    display: flex;
+    width: 140vw;
+    margin-left: 0.1rem;
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+  }
+}
 @media (min-width: 1024px) and (max-width: 1366px) {
   .boxAbout, .boxAbout2, .boxAbout1 {
       width: 70%;
